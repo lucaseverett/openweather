@@ -6,7 +6,7 @@ This is a Node/Express server for retrieving current weather conditions from the
 
 This API can be accessed with a `get` request to `/current` while passing parameters for `lat` and `lon`.
 
-Requests are cached to minimize use of the OpenWeather API. Subsequent requests for the same `lat` and `lon` will return idential data for 30 minutes after the initial request.
+Requests are cached to minimize use of the OpenWeather API. Subsequent requests for the same `lat` and `lon` will return identical data for 30 minutes after the initial request.
 
 **Example usage:**
 
@@ -42,7 +42,7 @@ The key should be in the following format in the `.env` file.
 
 ## How to Install and Start the Server
 
-To install the neccessary packages, run `npm install`.
+To install the necessary packages, run `npm install`.
 
 To start the server, run `npm start`.
 
